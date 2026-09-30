@@ -1,0 +1,337 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://pfuller91.github.io/cat_pictures/manifests/manifest2.json",
+  "type" : "Manifest",
+  "behavior" : "individuals",
+  "rights" : "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "requiredStatement" : {
+    "label" : {
+      "en" : [ "IMPORTANT" ]
+    },
+    "value" : {
+      "en" : [ "Provided courtesy of PAUL" ]
+    }
+  },
+  "label" : {
+    "en" : [ "Paul's Cat Picture Extravaganza" ]
+  },
+  "metadata" : [ {
+    "label" : {
+      "en" : [ "Author" ]
+    },
+    "value" : {
+      "en" : [ "Paul" ]
+    }
+  } ],
+  "summary" : {
+    "en" : [ "This is a great manifest created by Paul I did great work here." ]
+  },
+  "items" : [ {
+    "id" : "https://example.org/5pr595mq2j5-muo5ef12/canvas/v1qmyo50n9-muo69dj1",
+    "type" : "Canvas",
+    "height" : 4032,
+    "width" : 3024,
+    "label" : {
+      "en" : [ "Shosh on a couch" ]
+    },
+    "metadata" : [ {
+      "label" : {
+        "en" : [ "Cat" ]
+      },
+      "value" : {
+        "en" : [ "Shoshannah" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "picture taker" ]
+      },
+      "value" : {
+        "en" : [ "paul" ]
+      }
+    } ],
+    "rights" : "http://creativecommons.org/licenses/by/4.0/",
+    "thumbnail" : [ {
+      "id" : "https://iiif.archive.org/image/iiif/2/shosh1%2fshosh1.jpg/full/378,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 504,
+      "width" : 378
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/5pr595mq2j5-muo5ef12/canvas/v1qmyo50n9-muo69dj1/annotation-page/1c5lc4ix84n-muo69dj1",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/5pr595mq2j5-muo5ef12/annotation/a9tmoo5meiu-muo69dj1",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/5pr595mq2j5-muo5ef12/canvas/v1qmyo50n9-muo69dj1",
+        "body" : {
+          "id" : "https://iiif.archive.org/image/iiif/2/shosh1%2fshosh1.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 4032,
+          "width" : 3024,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/image/iiif/2/shosh1%2fshosh1.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 3024,
+            "height" : 4032,
+            "sizes" : [ {
+              "width" : 95,
+              "height" : 126
+            }, {
+              "width" : 189,
+              "height" : 252
+            }, {
+              "width" : 378,
+              "height" : 504
+            }, {
+              "width" : 756,
+              "height" : 1008
+            }, {
+              "width" : 1512,
+              "height" : 2016
+            }, {
+              "width" : 3024,
+              "height" : 4032
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16, 32 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 12192768,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          } ]
+        }
+      } ]
+    } ],
+    "annotations" : [ {
+      "id" : "https://example.org/5pr595mq2j5-muo5ef12/canvas/v1qmyo50n9-muo69dj1/annotations/mz65oz8cj3-muo6dlgu",
+      "type" : "AnnotationPage",
+      "label" : {
+        "en" : [ "Face" ]
+      },
+      "items" : [ {
+        "id" : "https://example.org/5pr595mq2j5-muo5ef12/canvas/v1qmyo50n9-muo69dj1/annotations/mz65oz8cj3-muo6dlgu/annotation/7ol3nfgdpu-muo6emh1",
+        "type" : "Annotation",
+        "motivation" : "tagging",
+        "target" : {
+          "type" : "SpecificResource",
+          "source" : "https://example.org/5pr595mq2j5-muo5ef12/canvas/v1qmyo50n9-muo69dj1",
+          "selector" : {
+            "type" : "SvgSelector",
+            "value" : "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 3024 4032\" width=\"3024\" height=\"4032\"><polygon points=\"632.2143704143734,1058.8336094336078 624.9999999999998,962 624.9999999999998,962 632.2143704143734,865.1663905663922 632.2143704143734,865.1663905663922 653.6808610808598,770.7186571186567 653.6808610808598,770.7186571186567 688.8696102696133,680.9800327800316 688.8696102696133,680.9800327800316 736.9155639155672,598.1607211607201 736.9155639155672,598.1607211607201 796.6352352352358,524.3007007007013 796.6352352352358,524.3007007007013 866.5576455576446,461.21797621797555 866.5576455576446,461.21797621797555 944.9617111617104,410.4663630663622 944.9617111617104,410.4663630663622 1029.916208516212,373.295994895994 1029.916208516212,373.295994895994 1119.3287639287655,350.62064042063935 1119.3287639287655,350.62064042063935 1211,343 1211,343 1302.6712360712345,350.62064042063935 1302.6712360712345,350.62064042063935 1392.0837914837878,373.295994895994 1392.0837914837878,373.295994895994 1477.0382888382894,410.4663630663622 1477.0382888382894,410.4663630663622 1555.442354442355,461.21797621797555 1555.442354442355,461.21797621797555 1625.3647647647642,524.3007007007013 1625.3647647647642,524.3007007007013 1685.0844360844324,598.1607211607201 1685.0844360844324,598.1607211607201 1733.130389730386,680.9800327800316 1733.130389730386,680.9800327800316 1768.31913891914,770.7186571186567 1768.31913891914,770.7186571186567 1789.7856295856263,865.1663905663922 1789.7856295856263,865.1663905663922 1797,962 1797,962 1789.7856295856263,1058.8336094336078 1789.7856295856263,1058.8336094336078 1768.31913891914,1153.2813428813433 1768.31913891914,1153.2813428813433 1733.130389730386,1243.0199672199683 1733.130389730386,1243.0199672199683 1685.0844360844324,1325.8392788392798 1685.0844360844324,1325.8392788392798 1625.3647647647642,1399.6992992992987 1625.3647647647642,1399.6992992992987 1555.442354442355,1462.782023782024 1555.442354442355,1462.782023782024 1477.0382888382894,1513.533636933638 1477.0382888382894,1513.533636933638 1392.0837914837878,1550.7040051040058 1392.0837914837878,1550.7040051040058 1302.6712360712345,1573.3793595793607 1302.6712360712345,1573.3793595793607 1211,1581 1211,1581 1119.3287639287655,1573.3793595793607 1119.3287639287655,1573.3793595793607 1029.916208516212,1550.7040051040058 1029.916208516212,1550.7040051040058 944.9617111617104,1513.533636933638 944.9617111617104,1513.533636933638 866.5576455576446,1462.782023782024 866.5576455576446,1462.782023782024 796.6352352352358,1399.6992992992987 796.6352352352358,1399.6992992992987 736.9155639155672,1325.8392788392798 736.9155639155672,1325.8392788392798 688.8696102696133,1243.0199672199683 688.8696102696133,1243.0199672199683 653.6808610808598,1153.2813428813433 653.6808610808598,1153.2813428813433 632.2143704143734,1058.8336094336078\" /></svg>"
+          }
+        },
+        "body" : {
+          "id" : "https://example.org/5pr595mq2j5-muo5ef12/canvas/v1qmyo50n9-muo69dj1/annotations/mz65oz8cj3-muo6dlgu/annotation/7ol3nfgdpu-muo6emh1/html/en/rw6wn7529ui-muo6emh1",
+          "type" : "TextualBody",
+          "format" : "text/html",
+          "language" : "en",
+          "value" : "<p>this is the cat's face</p>"
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/5pr595mq2j5-muo5ef12/canvas/22yg0qd5xnd-muo69zyl",
+    "type" : "Canvas",
+    "height" : 2458,
+    "width" : 2459,
+    "label" : {
+      "en" : [ "Shosh on a slipper" ]
+    },
+    "metadata" : [ {
+      "label" : {
+        "en" : [ "Cat" ]
+      },
+      "value" : {
+        "en" : [ "Shoshannah" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "picture taker" ]
+      },
+      "value" : {
+        "en" : [ "paul" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "slipper" ]
+      },
+      "value" : {
+        "en" : [ "ll bean" ]
+      }
+    } ],
+    "rights" : "http://creativecommons.org/licenses/by/4.0/",
+    "thumbnail" : [ {
+      "id" : "https://iiif.archive.org/image/iiif/2/shosh2%2fshosh2.jpg/full/307,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 307,
+      "width" : 307
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/5pr595mq2j5-muo5ef12/canvas/22yg0qd5xnd-muo69zyl/annotation-page/4i0zesy2a2l-muo69zyl",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/5pr595mq2j5-muo5ef12/annotation/ywk3q98cqu-muo69zyl",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/5pr595mq2j5-muo5ef12/canvas/22yg0qd5xnd-muo69zyl",
+        "body" : {
+          "id" : "https://iiif.archive.org/image/iiif/2/shosh2%2fshosh2.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 2458,
+          "width" : 2459,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/image/iiif/2/shosh2%2fshosh2.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 2459,
+            "height" : 2458,
+            "sizes" : [ {
+              "width" : 77,
+              "height" : 77
+            }, {
+              "width" : 154,
+              "height" : 154
+            }, {
+              "width" : 307,
+              "height" : 307
+            }, {
+              "width" : 615,
+              "height" : 615
+            }, {
+              "width" : 1230,
+              "height" : 1229
+            }, {
+              "width" : 2459,
+              "height" : 2458
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16, 32 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 6044222,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          } ]
+        }
+      } ]
+    } ]
+  } ],
+  "navPlace" : {
+    "type" : "FeatureCollection",
+    "features" : [ {
+      "type" : "Feature",
+      "properties" : { },
+      "geometry" : {
+        "type" : "Polygon",
+        "coordinates" : [ [ [ -82.96875, 38.603993 ], [ -82.001953, 41.496235 ], [ -79.365234, 38.466493 ], [ -77.080078, 42.020733 ], [ -75.058594, 38.466493 ], [ -73.828125, 37.357059 ], [ -73.54248, 36.844461 ], [ -73.740234, 36.44338 ], [ -74.267578, 34.872412 ], [ -75.410156, 33.710632 ], [ -77.167969, 32.976412 ], [ -78.925781, 32.754942 ], [ -81.5625, 32.754942 ], [ -83.232422, 33.197328 ], [ -84.462891, 34.220887 ], [ -85.341797, 35.733136 ], [ -84.550781, 37.357059 ], [ -82.96875, 38.603993 ] ] ]
+      }
+    }, {
+      "type" : "Feature",
+      "properties" : { },
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [ [ -72.861328, 39.355538 ], [ -76.992188, 36.914764 ] ]
+      }
+    }, {
+      "type" : "Feature",
+      "properties" : { },
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [ [ -69.873047, 38.891033 ], [ -72.949219, 37.614231 ], [ -76.552734, 36.066862 ] ]
+      }
+    }, {
+      "type" : "Feature",
+      "properties" : { },
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [ [ -86.220703, 38.121593 ], [ -81.166992, 36.738884 ] ]
+      }
+    }, {
+      "type" : "Feature",
+      "properties" : { },
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [ [ -86.835938, 36.08906 ], [ -80.859375, 35.353216 ] ]
+      }
+    }, {
+      "type" : "Feature",
+      "properties" : { },
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [ [ -77.080078, 36.13122 ], [ -72.509766, 38.507341 ] ]
+      }
+    }, {
+      "type" : "Feature",
+      "properties" : { },
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [ [ -78.969727, 35.917972 ], [ -78.75, 34.698719 ] ]
+      }
+    }, {
+      "type" : "Feature",
+      "properties" : { },
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [ [ -78.793945, 34.698719 ], [ -77.34375, 34.264026 ] ]
+      }
+    }, {
+      "type" : "Feature",
+      "properties" : { },
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [ [ -78.925781, 34.590259 ], [ -79.541016, 33.790561 ] ]
+      }
+    }, {
+      "type" : "Feature",
+      "properties" : { },
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [ [ -81.210938, 35.882374 ], [ -86.088867, 36.908176 ] ]
+      }
+    } ]
+  },
+  "structures" : [ {
+    "id" : "http://example.org/iiif/book1/range/top",
+    "type" : "Range",
+    "label" : {
+      "en" : [ "Table of Contents" ]
+    },
+    "viewingHint" : "top",
+    "items" : [ {
+      "id" : "http://example.org/iiif/book1/range/couch",
+      "type" : "Range",
+      "label" : {
+        "en" : [ "Couch" ]
+      },
+      "items" : [ {
+        "id" : "https://example.org/5pr595mq2j5-muo5ef12/canvas/v1qmyo50n9-muo69dj1",
+        "type" : "Canvas"
+      } ]
+    }, {
+      "id" : "http://example.org/iiif/book1/range/slipper",
+      "type" : "Range",
+      "label" : {
+        "en" : [ "Slipper" ]
+      },
+      "items" : [ {
+        "id" : "https://example.org/5pr595mq2j5-muo5ef12/canvas/22yg0qd5xnd-muo69zyl",
+        "type" : "Canvas"
+      } ]
+    } ]
+  } ]
+}
