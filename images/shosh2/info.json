@@ -1,0 +1,33 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 77,
+    "height" : 77
+  }, {
+    "width" : 154,
+    "height" : 154
+  }, {
+    "width" : 308,
+    "height" : 308
+  }, {
+    "width" : 615,
+    "height" : 615
+  }, {
+    "width" : 1230,
+    "height" : 1229
+  }, {
+    "width" : 2459,
+    "height" : 2458
+  } ],
+  "profile" : "level0",
+  "width" : 2459,
+  "id" : "https://pfuller91.github.io/cat_pictures/images/shosh2",
+  "type" : "ImageService3",
+  "@context" : "http://iiif.io/api/image/3/context.json",
+  "height" : 2458
+}
