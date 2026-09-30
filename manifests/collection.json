@@ -1,0 +1,15 @@
+{
+  "id" : "https://pfuller91.github.io/cat_pictures/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in pfuller91/cat_pictures project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "id" : "https://pfuller91.github.io/cat_pictures/manifests/manifest2.json",
+    "label" : {
+      "en" : [ "Paul's Cat Picture Extravaganza" ]
+    },
+    "type" : "Manifest"
+  } ]
+}
