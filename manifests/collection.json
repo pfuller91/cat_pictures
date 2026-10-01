@@ -11,5 +11,11 @@
       "en" : [ "Paul's Cat Picture Extravaganza" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://pfuller91.github.io/cat_pictures/manifests/manifest3.json",
+    "label" : {
+      "en" : [ "Paul's Cat Picture Extravaganza" ]
+    },
+    "type" : "Manifest"
   } ]
 }
