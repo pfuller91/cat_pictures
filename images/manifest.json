@@ -9,6 +9,87 @@
     },
     "items": [
         {
+            "id": "https://pfuller91.github.io/cat_pictures/images/our-cat1/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "our-cat1"
+                ]
+            },
+            "height": 4434,
+            "width": 4000,
+            "items": [
+                {
+                    "id": "https://pfuller91.github.io/cat_pictures/images/our-cat1/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://pfuller91.github.io/cat_pictures/images/our-cat1/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://pfuller91.github.io/cat_pictures/images/our-cat1/full/max/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 125,
+                                                "height": 139
+                                            },
+                                            {
+                                                "width": 250,
+                                                "height": 278
+                                            },
+                                            {
+                                                "width": 500,
+                                                "height": 555
+                                            },
+                                            {
+                                                "width": 1000,
+                                                "height": 1109
+                                            },
+                                            {
+                                                "width": 2000,
+                                                "height": 2217
+                                            },
+                                            {
+                                                "width": 4000,
+                                                "height": 4434
+                                            }
+                                        ],
+                                        "profile": "level0",
+                                        "width": 4000,
+                                        "id": "https://pfuller91.github.io/cat_pictures/images/our-cat1",
+                                        "type": "ImageService3",
+                                        "@context": "http://iiif.io/api/image/3/context.json",
+                                        "height": 4434
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://pfuller91.github.io/cat_pictures/images/our-cat1/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "https://pfuller91.github.io/cat_pictures/images/shosh1/canvas/",
             "type": "Canvas",
             "label": {
@@ -171,26 +252,26 @@
             ]
         },
         {
-            "id": "https://pfuller91.github.io/cat_pictures/images/our-cat1/canvas/",
+            "id": "https://pfuller91.github.io/cat_pictures/images/our-cat2/canvas/",
             "type": "Canvas",
             "label": {
                 "none": [
-                    "our-cat1"
+                    "our-cat2"
                 ]
             },
-            "height": 4434,
+            "height": 4725,
             "width": 4000,
             "items": [
                 {
-                    "id": "https://pfuller91.github.io/cat_pictures/images/our-cat1/annotation/AnnoPage",
+                    "id": "https://pfuller91.github.io/cat_pictures/images/our-cat2/annotation/AnnoPage",
                     "type": "AnnotationPage",
                     "items": [
                         {
-                            "id": "https://pfuller91.github.io/cat_pictures/images/our-cat1/annotation/",
+                            "id": "https://pfuller91.github.io/cat_pictures/images/our-cat2/annotation/",
                             "type": "Annotation",
                             "motivation": "painting",
                             "body": {
-                                "id": "https://pfuller91.github.io/cat_pictures/images/our-cat1/full/max/0/default.jpg",
+                                "id": "https://pfuller91.github.io/cat_pictures/images/our-cat2/full/max/0/default.jpg",
                                 "type": "Image",
                                 "service": [
                                     {
@@ -212,40 +293,40 @@
                                         "sizes": [
                                             {
                                                 "width": 125,
-                                                "height": 139
+                                                "height": 148
                                             },
                                             {
                                                 "width": 250,
-                                                "height": 278
+                                                "height": 296
                                             },
                                             {
                                                 "width": 500,
-                                                "height": 555
+                                                "height": 591
                                             },
                                             {
                                                 "width": 1000,
-                                                "height": 1109
+                                                "height": 1182
                                             },
                                             {
                                                 "width": 2000,
-                                                "height": 2217
+                                                "height": 2363
                                             },
                                             {
                                                 "width": 4000,
-                                                "height": 4434
+                                                "height": 4725
                                             }
                                         ],
                                         "profile": "level0",
                                         "width": 4000,
-                                        "id": "https://pfuller91.github.io/cat_pictures/images/our-cat1",
+                                        "id": "https://pfuller91.github.io/cat_pictures/images/our-cat2",
                                         "type": "ImageService3",
                                         "@context": "http://iiif.io/api/image/3/context.json",
-                                        "height": 4434
+                                        "height": 4725
                                     }
                                 ],
                                 "format": "image/jpeg"
                             },
-                            "target": "https://pfuller91.github.io/cat_pictures/images/our-cat1/canvas/"
+                            "target": "https://pfuller91.github.io/cat_pictures/images/our-cat2/canvas/"
                         }
                     ]
                 }

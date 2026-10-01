@@ -1,0 +1,33 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 125,
+    "height" : 148
+  }, {
+    "width" : 250,
+    "height" : 296
+  }, {
+    "width" : 500,
+    "height" : 591
+  }, {
+    "width" : 1000,
+    "height" : 1182
+  }, {
+    "width" : 2000,
+    "height" : 2363
+  }, {
+    "width" : 4000,
+    "height" : 4725
+  } ],
+  "profile" : "level0",
+  "width" : 4000,
+  "id" : "https://pfuller91.github.io/cat_pictures/images/our-cat2",
+  "type" : "ImageService3",
+  "@context" : "http://iiif.io/api/image/3/context.json",
+  "height" : 4725
+}
